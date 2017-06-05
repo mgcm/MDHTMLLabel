@@ -1012,7 +1012,7 @@ static inline CGSize CTFramesetterSuggestFrameSizeForAttributedStringWithConstra
     {
         { kCTParagraphStyleSpecifierAlignment, sizeof(CTTextAlignment), &textAlignment },
 		{ kCTParagraphStyleSpecifierLineBreakMode, sizeof(CTLineBreakMode), &lineBreakMode  },
-		{ kCTParagraphStyleSpecifierLineSpacing, sizeof(CGFloat), &lineSpacing },
+		{ kCTParagraphStyleSpecifierMinimumLineSpacing, sizeof(CGFloat), &lineSpacing },
         { kCTParagraphStyleSpecifierLineSpacingAdjustment, sizeof(CGFloat), &lineSpacingAdjustment },
         { kCTParagraphStyleSpecifierLineHeightMultiple, sizeof(CGFloat), &lineHeightMultiple },
         { kCTParagraphStyleSpecifierParagraphSpacingBefore, sizeof(CGFloat), &topMargin },
@@ -1058,7 +1058,7 @@ static inline CGSize CTFramesetterSuggestFrameSizeForAttributedStringWithConstra
     {
         { kCTParagraphStyleSpecifierAlignment, sizeof(CTTextAlignment), &textAlignment },
 		{ kCTParagraphStyleSpecifierLineBreakMode, sizeof(CTLineBreakMode), &lineBreakMode  },
-		{ kCTParagraphStyleSpecifierLineSpacing, sizeof(CGFloat), &lineSpacing },
+		{ kCTParagraphStyleSpecifierMinimumLineSpacing, sizeof(CGFloat), &lineSpacing },
         { kCTParagraphStyleSpecifierLineSpacingAdjustment, sizeof(CGFloat), &lineSpacingAdjustment },
         { kCTParagraphStyleSpecifierLineHeightMultiple, sizeof(CGFloat), &lineHeightMultiple },
         { kCTParagraphStyleSpecifierParagraphSpacingBefore, sizeof(CGFloat), &topMargin },
